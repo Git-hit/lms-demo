@@ -28,7 +28,7 @@ function Courses() {
     return (
         <div className="bg-neutral-100">
             <div className="max-w-[85rem] mt-20 md:mt-28 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                <h1 className="inline-block playfair-display-500 text-6xl text-left text-gray-800 after:absolute after:w-full after:h-1 after:bg-[#7AE36A] after:bottom-0 after:left-0 relative">Our Courses</h1>
+                <h1 className="inline playfair-display-500 text-6xl text-left text-gray-800 after:absolute after:w-full after:h-1 after:bg-[#7AE36A] after:bottom-0 after:left-0 relative">Our Courses</h1>
                 <div className="mt-28 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {courses.map((course, index) => (
                         <div key={index} className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl">

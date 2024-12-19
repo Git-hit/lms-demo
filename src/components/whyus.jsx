@@ -9,7 +9,7 @@ function Whyus() {
                     <div className="space-y-6 sm:space-y-8">
                         <div className="space-y-2 md:space-y-4">
                             <h2 className="font-bold playfair-display-500 text-6xl lg:text-7xl text-gray-800">
-                                Have the question, <span className="bg-[#7AE36A] px-3 !leading-snug">why us</span>?
+                                Have the question, <span className="bg-[#7AE36A] px-3 leading-relaxed lg:!leading-snug">why us</span>?
                             </h2>
                             <p className="text-gray-500">
                                 Besides working with start-up enterprises as a partner for digitalization, we have built enterprise products for common pain points that we have encountered in various products and projects.
